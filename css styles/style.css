@@ -13,6 +13,11 @@ influence journy ------------- */
 .influencer-journey{
     display: flex;
     margin: 70px;
+    align-items: center;
+    }
+    .color{
+        color: rgb(59, 58, 58);
+        font-weight: bold;
     }
     h1{
         font-size: 40px;
@@ -88,14 +93,29 @@ influence journy ------------- */
         color: rgba(199, 5, 69, 0.815);
         font-weight: bold;
     }
+    /*--------------- 
+    --------social media --------------------------- */
+    .speech{
+        margin-left: 200px;
+    }
+    .social-media img{
+        box-shadow: 0 6px 30px rgb(219, 218, 218);
+        border-radius: 20px;
+    }
+    .influence-button{
+        background-color: rgb(238, 13, 88);
+        text-decoration: none;
+        color: rgb(206, 245, 245);
+        padding: 7px 15px;
+        font-size: 15px;
+        border-radius: 15px;}
     /* 
     ------------------------------
     -----------------------------footter ------------------------------------------ */
-    h6{
-        font-weight: normal;
+     h6{
+        font-weight:normal;
         margin: 0 0 10px 0;
-        
-    }
+     }  
     .footer{
         text-align: center;
         background-color: rgba(9, 2, 46, 0.959);
