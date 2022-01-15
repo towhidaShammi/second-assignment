@@ -68,5 +68,5 @@ influence journy ------------- */
     }
     .popular-collection{
         display: grid;
-        grid-template-columns: repeat(3,2fr);
+        grid-template-columns: 1fr 1fr 1fr ;
     }
