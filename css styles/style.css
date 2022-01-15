@@ -88,5 +88,22 @@ influence journy ------------- */
         color: rgba(199, 5, 69, 0.815);
         font-weight: bold;
     }
+    /* 
+    ------------------------------
+    -----------------------------footter ------------------------------------------ */
+    h6{
+        font-weight: normal;
+        margin: 0 0 10px 0;
         
+    }
+    .footer{
+        text-align: center;
+        background-color: rgba(9, 2, 46, 0.959);
+        color: white;
+        padding: 30px;
+         }
+         .flex i{
+             margin-left: 10px;
+             }  
+    
     
