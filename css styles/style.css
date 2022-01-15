@@ -24,3 +24,49 @@ influence journy ------------- */
         font-size: 15px;
         border-radius: 15px;
     }
+    .influence-pic:hover .photo{
+        transform:scale(1.1) ;
+        transition:transform 2s ease-in-out;
+        
+    }
+    .influence-pic:hover{
+       border:3px solid rgb(146, 146, 238);
+       border-radius: 7px;
+    }
+    .influencer:hover{
+        border: 3px solid rgb(146, 146, 238);
+        border-radius: 7px;
+        padding-left: 10px;
+    }
+    /*---------------------------------------------------
+    -------------- popular collection ----------------------- */
+    h3{
+        font-size: 25px;
+        text-align: center;
+        color: rgb(71, 69, 69);
+    }
+    h2{
+        margin: 15px 0;
+    }
+    h4{
+       font-weight:normal; 
+      margin:8px 0;
+      margin-top: 0;
+    }
+    .icon{
+            color: goldenrod;
+            font-size: 10px;
+              margin-top: 0;
+    }
+    span{
+        margin-left:15px;
+        color: rgb(133, 130, 130);
+        font-size: 13px;
+    }
+    p{
+        color:rgb(133, 130, 130) ;
+    }
+    .popular-collection{
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+    }
