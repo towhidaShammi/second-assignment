@@ -1,0 +1,26 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+} 
+h3{
+    margin: 70px;
+}
+/*----------------
+
+influence journy ------------- */
+.influencer-journey{
+    display: flex;
+    margin: 70px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .influence-button{
+        background-color: rgb(238, 13, 88);
+        text-decoration: none;
+        color: rgb(206, 245, 245);
+        padding: 7px 15px;
+        font-size: 15px;
+        border-radius: 15px;
+    }
