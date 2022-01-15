@@ -7,13 +7,19 @@ header{
     margin-left: 70px;
     margin-top: 60px;
 }
+
+
 /*----------------
 
 influence journy ------------- */
+
+
 .influencer-journey{
     display: flex;
     margin: 70px;
     align-items: center;
+  
+    
     }
     .color{
         color: rgb(59, 58, 58);
@@ -42,10 +48,14 @@ influence journy ------------- */
     .influencer:hover{
         border: 3px solid rgb(146, 146, 238);
         border-radius: 7px;
-        padding-left: 10px;
+        padding: 25px;
     }
+    
+   
     /*---------------------------------------------------
     -------------- popular collection ----------------------- */
+
+
     h3{
         font-size: 25px;
         text-align: center;
@@ -86,15 +96,22 @@ influence journy ------------- */
             height: 460px;
             border-radius: 7px;
         }
-    /*------------- button ---------------- */
+    
+        /*------------- button ---------------- */
+
+
     .see-more a{
         text-decoration: none;
         margin-left: 1150px;
         color: rgba(199, 5, 69, 0.815);
         font-weight: bold;
     }
+   
+   
     /*--------------- 
     --------social media --------------------------- */
+
+
     .speech{
         margin-left: 200px;
     }
@@ -109,9 +126,14 @@ influence journy ------------- */
         padding: 7px 15px;
         font-size: 15px;
         border-radius: 15px;}
-    /* 
+   
+   
+
+        /* 
     ------------------------------
     -----------------------------footter ------------------------------------------ */
+
+
      h6{
         font-weight:normal;
         margin: 0 0 10px 0;
@@ -125,5 +147,14 @@ influence journy ------------- */
          .flex i{
              margin-left: 10px;
              }  
+
+             /*----------- responsive css -----------*/
+
+             @media ( max-width:950px) {
+                 .popular-collection{
+                     grid-template-columns:1fr 1fr ;
+                 }
+                 
+             }
     
     
