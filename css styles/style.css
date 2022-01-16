@@ -169,23 +169,75 @@ influence journy ------------- */
              /*-------
              -------- mobile devices -------------- */
 
-             @media ( max-width:688px) {
-                 
+             @media  only screen and ( max-width:688px) {
+                 body{
+                     width: 100%;
+                 }
+                
                  .influencer-journey{
                 max-width: 100%;
                 text-align: center;
                 flex-direction: column;
                 margin-right: 40px;
+                
+                 }
+                 .influence-button{
+                     margin-bottom: 30px;
+                     text-align: center;
                  }
                  .popular-collection{
                      width: 400px;
-                     margin: 30px;
+                     margin: 70px;
                      grid-template-columns: 1fr ;
                  }
+
                  .see-more{
                      text-align:center;
                  }
+                 .speech{
+                    max-width: 100%;
+                text-align: center;
+                flex-direction: column;
+                margin-right: 40px;
+                
+                 }
+                 .footer{
+                     max-width: 100%;
+                 }
+                 
                  
              }
-    
-    
+    /* ------------
+    -----------tab ------------------- */
+
+    @media only screen and (min-width:689px) and ( max-width:992px) {
+        body{
+            width: 100%;
+        }
+        .influencer-journey{
+            max-width: 100%;
+            text-align: center;
+            flex-direction: column;
+            
+             }
+             .influence-button{
+                margin-bottom: 30px;
+                text-align: center;
+            }
+            .popular-collection{
+                width:100%;
+                grid-template-columns: 1fr 1fr ;
+            }
+            .see-more{
+                text-align:center;
+            }
+            .speech{
+                max-width: 100%;
+            text-align: center;
+            flex-direction: column;
+            
+             }
+             .footer{
+                max-width: 100%;
+            }
+    }
