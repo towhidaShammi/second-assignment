@@ -41,10 +41,11 @@ influence journy ------------- */
         transition:transform 2s ease-in-out;
         
     }
+
     .influence-pic:hover{
        border:3px solid rgb(146, 146, 238);
        border-radius: 7px;
-    }
+    } 
     .influencer:hover{
         border: 3px solid rgb(146, 146, 238);
         border-radius: 7px;
@@ -96,6 +97,13 @@ influence journy ------------- */
             height: 460px;
             border-radius: 7px;
         }
+        .popular-collection{
+            overflow: hidden;
+        }
+        .popular:hover .photo{
+            transform:scale(1.1) ;
+            transition:transform 2s ease-in-out;
+        }
     
         /*------------- button ---------------- */
 
@@ -126,6 +134,13 @@ influence journy ------------- */
         padding: 7px 15px;
         font-size: 15px;
         border-radius: 15px;}
+        .social-media:hover .photo{
+            transform:scale(1.1) ;
+            transition:transform 2s ease-in-out;
+            border:2px solid rgb(36, 58, 58);
+            
+        }
+
    
    
 
@@ -150,9 +165,25 @@ influence journy ------------- */
 
              /*----------- responsive css -----------*/
 
-             @media ( max-width:950px) {
+
+             /*-------
+             -------- mobile devices -------------- */
+
+             @media ( max-width:688px) {
+                 
+                 .influencer-journey{
+                max-width: 100%;
+                text-align: center;
+                flex-direction: column;
+                margin-right: 40px;
+                 }
                  .popular-collection{
-                     grid-template-columns:1fr 1fr ;
+                     width: 400px;
+                     margin: 30px;
+                     grid-template-columns: 1fr ;
+                 }
+                 .see-more{
+                     text-align:center;
                  }
                  
              }
