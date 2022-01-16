@@ -181,28 +181,31 @@ influence journy ------------- */
                 margin-right: 40px;
                 
                  }
+                 .influence-pic .photo{
+                     width: 300px;
+                 }
                  .influence-button{
                      margin-bottom: 30px;
                      text-align: center;
                  }
                  .popular-collection{
                      width: 400px;
-                     margin: 70px;
+                     margin: 45px;
+                     padding: 0px;
                      grid-template-columns: 1fr ;
                  }
 
                  .see-more{
                      text-align:center;
                  }
-                 .speech{
-                    max-width: 100%;
-                text-align: center;
-                flex-direction: column;
-                margin-right: 40px;
-                
+                 .social-media .photo{
+                     width:100%;
+                     margin-right: 0;
                  }
+                 
+                
                  .footer{
-                     max-width: 100%;
+                   max-width: 100%;
                  }
                  
                  
@@ -211,11 +214,10 @@ influence journy ------------- */
     -----------tab ------------------- */
 
     @media only screen and (min-width:689px) and ( max-width:992px) {
-        body{
-            width: 100%;
-        }
+        
         .influencer-journey{
-            max-width: 100%;
+            width:100%;
+             
             text-align: center;
             flex-direction: column;
             
@@ -225,7 +227,7 @@ influence journy ------------- */
                 text-align: center;
             }
             .popular-collection{
-                width:100%;
+                width: 300px;
                 grid-template-columns: 1fr 1fr ;
             }
             .see-more{
